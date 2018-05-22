@@ -165,6 +165,7 @@
             this.txtSuggestComune.StreetMasterKey = "Inserire la chiave StreetMaster";
             this.txtSuggestComune.TabIndex = 24;
             this.txtSuggestComune.TypeSuggest = SuggestControl.Data.DataUtil.TypeSuggestEnum.Free;
+            this.txtSuggestComune.TownSelect += new System.EventHandler<SuggestControl.SelectTownEventArgs>(this.txtSuggestComune_TownSelect);
             this.txtSuggestComune.TextChanged += new System.EventHandler(this.txtSuggestComune_TextChanged);
             // 
             // cbSoloComuni
