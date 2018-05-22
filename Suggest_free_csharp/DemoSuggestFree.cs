@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using SuggestControl.Data;
+using SuggestControl;
 
 namespace Suggest_free_csharp
 {
@@ -16,12 +9,12 @@ namespace Suggest_free_csharp
         public DemoSuggestFree()
         {
             InitializeComponent();
-            txtSuggestComune.TownOutput = DataUtil.TownOutputEnum.Town;
+            txtSuggestComune.TownOutput = TownOutputEnum.Town;
         }
 
         private void cbSoloComuni_CheckedChanged(object sender, EventArgs e)
         {
-            txtSuggestComune.TownOutput = cbSoloComuni.Checked ? DataUtil.TownOutputEnum.Town : DataUtil.TownOutputEnum.All;
+            txtSuggestComune.TownOutput = cbSoloComuni.Checked ? TownOutputEnum.Town : TownOutputEnum.All;
         }
 
         private void txtSuggestComune_TownSelect(object sender, SuggestControl.SelectTownEventArgs e)
