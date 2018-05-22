@@ -17,7 +17,7 @@ Il servizio gratuito gestisce il livello comune e permette di effettuare in mani
 Per volumi di utilizzo maggiori o per estendere il servizio consultare nel sito i piani di utilizzo.
 Se non viene utilizzata una chiave valida il servizio restituisce nel menu a tendina un avviso.
 
-Il servizio ha una copertura a livello di strada su tutto il territorio nazionale.
+Il servizio ha una copertura a livello di strada su tutto il territorio nazionale ma la modalità Free permette di accedere al solo livello provincia\comune\frazione.
 La base dati di riferimento è costantemente aggiornata con le variazioni amministrative e postali ufficiali.
 
 ### User control
