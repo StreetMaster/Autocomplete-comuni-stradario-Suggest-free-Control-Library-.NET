@@ -161,6 +161,7 @@
             this.txtSuggestComune.DisableAutocomplete = false;
             this.txtSuggestComune.Location = new System.Drawing.Point(16, 109);
             this.txtSuggestComune.Name = "txtSuggestComune";
+            this.txtSuggestComune.OutGerman = true;
             this.txtSuggestComune.Size = new System.Drawing.Size(319, 20);
             this.txtSuggestComune.StreetMasterKey = "Inserire la chiave StreetMaster";
             this.txtSuggestComune.TabIndex = 24;
